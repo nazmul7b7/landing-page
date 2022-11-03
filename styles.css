@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -70,5 +76,14 @@ button {
     border-radius: 8px;
     background-color: blue;
     color: #f9faf8;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin-top: auto;
+    text-align: center;
+    padding: 32px;
 }
 
