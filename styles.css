@@ -55,9 +55,12 @@ h1 {
 }
 
 .image-container {
-    display: flex;
-    
-    
+    display: flex;    
+}
+
+.image-container img {
+    border: 2px solid gold;
+    border-radius: 16px;
 }
 
 h2 {
@@ -69,6 +72,26 @@ h2 {
 .item {
     display: inline-block;
     text-align: center;       
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 50px 100px;
+}
+
+.quote-owner {
+    margin-left: auto;
+    padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 button {
